@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7EB7114D1C1DDDB90065090D"
-               BuildableName = "ExampleBIZCircularTransition.app"
-               BlueprintName = "ExampleBIZCircularTransition"
-               ReferencedContainer = "container:ExampleBIZCircularTransition.xcodeproj">
+               BlueprintIdentifier = "7E2236F71C219941008DB11A"
+               BuildableName = "Example.app"
+               BlueprintName = "Example"
+               ReferencedContainer = "container:Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7EB7114D1C1DDDB90065090D"
-            BuildableName = "ExampleBIZCircularTransition.app"
-            BlueprintName = "ExampleBIZCircularTransition"
-            ReferencedContainer = "container:ExampleBIZCircularTransition.xcodeproj">
+            BlueprintIdentifier = "7E2236F71C219941008DB11A"
+            BuildableName = "Example.app"
+            BlueprintName = "Example"
+            ReferencedContainer = "container:Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7EB7114D1C1DDDB90065090D"
-            BuildableName = "ExampleBIZCircularTransition.app"
-            BlueprintName = "ExampleBIZCircularTransition"
-            ReferencedContainer = "container:ExampleBIZCircularTransition.xcodeproj">
+            BlueprintIdentifier = "7E2236F71C219941008DB11A"
+            BuildableName = "Example.app"
+            BlueprintName = "Example"
+            ReferencedContainer = "container:Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7EB7114D1C1DDDB90065090D"
-            BuildableName = "ExampleBIZCircularTransition.app"
-            BlueprintName = "ExampleBIZCircularTransition"
-            ReferencedContainer = "container:ExampleBIZCircularTransition.xcodeproj">
+            BlueprintIdentifier = "7E2236F71C219941008DB11A"
+            BuildableName = "Example.app"
+            BlueprintName = "Example"
+            ReferencedContainer = "container:Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

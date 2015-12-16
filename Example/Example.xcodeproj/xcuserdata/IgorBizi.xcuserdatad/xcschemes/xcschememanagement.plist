@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ExampleBIZCircularTransition.xcscheme</key>
+		<key>Example.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7EB7114D1C1DDDB90065090D</key>
+		<key>7E2236F71C219941008DB11A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
