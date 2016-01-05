@@ -11,8 +11,12 @@ BIZCircularTransition is a round transition between UIViewControllers.
 # Installation
 
 ### Manually
- - Copy BIZCircularTransition folder to your project 
- - ```#import "BIZCircularTransitionHandler.h"``` 
+ - Copy ```BIZCircularTransition``` folder to your project 
+
+### From CocoaPods:
+```objective-c
+pod 'BIZCircularTransition' 
+```
 
 
 # Usage
