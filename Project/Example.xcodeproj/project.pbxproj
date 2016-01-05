@@ -14,8 +14,8 @@
 		7E22370B1C219941008DB11A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2237091C219941008DB11A /* LaunchScreen.storyboard */; };
 		7E2237161C2199D7008DB11A /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2237131C2199D7008DB11A /* ViewController1.m */; settings = {ASSET_TAGS = (); }; };
 		7E2237171C2199D7008DB11A /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2237151C2199D7008DB11A /* ViewController2.m */; settings = {ASSET_TAGS = (); }; };
-		7E22371D1C2199ED008DB11A /* BIZCircularTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E22371A1C2199ED008DB11A /* BIZCircularTransitionAnimator.m */; settings = {ASSET_TAGS = (); }; };
-		7E22371E1C2199ED008DB11A /* BIZCircularTransitionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E22371C1C2199ED008DB11A /* BIZCircularTransitionHandler.m */; settings = {ASSET_TAGS = (); }; };
+		7EECAB701C3B4B54005AC48C /* BIZCircularTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EECAB6D1C3B4B54005AC48C /* BIZCircularTransitionAnimator.m */; settings = {ASSET_TAGS = (); }; };
+		7EECAB711C3B4B54005AC48C /* BIZCircularTransitionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EECAB6F1C3B4B54005AC48C /* BIZCircularTransitionHandler.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,10 +31,10 @@
 		7E2237131C2199D7008DB11A /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		7E2237141C2199D7008DB11A /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		7E2237151C2199D7008DB11A /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
-		7E2237191C2199ED008DB11A /* BIZCircularTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZCircularTransitionAnimator.h; sourceTree = "<group>"; };
-		7E22371A1C2199ED008DB11A /* BIZCircularTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZCircularTransitionAnimator.m; sourceTree = "<group>"; };
-		7E22371B1C2199ED008DB11A /* BIZCircularTransitionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZCircularTransitionHandler.h; sourceTree = "<group>"; };
-		7E22371C1C2199ED008DB11A /* BIZCircularTransitionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZCircularTransitionHandler.m; sourceTree = "<group>"; };
+		7EECAB6C1C3B4B54005AC48C /* BIZCircularTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZCircularTransitionAnimator.h; sourceTree = "<group>"; };
+		7EECAB6D1C3B4B54005AC48C /* BIZCircularTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZCircularTransitionAnimator.m; sourceTree = "<group>"; };
+		7EECAB6E1C3B4B54005AC48C /* BIZCircularTransitionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIZCircularTransitionHandler.h; sourceTree = "<group>"; };
+		7EECAB6F1C3B4B54005AC48C /* BIZCircularTransitionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIZCircularTransitionHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 		7E2236EF1C219941008DB11A = {
 			isa = PBXGroup;
 			children = (
-				7E2237181C2199ED008DB11A /* BIZCircularTransition */,
+				7EECAB6B1C3B4B54005AC48C /* Classes */,
 				7E2236FA1C219941008DB11A /* Example */,
 				7E2236F91C219941008DB11A /* Products */,
 			);
@@ -91,16 +91,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7E2237181C2199ED008DB11A /* BIZCircularTransition */ = {
+		7EECAB6B1C3B4B54005AC48C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7E2237191C2199ED008DB11A /* BIZCircularTransitionAnimator.h */,
-				7E22371A1C2199ED008DB11A /* BIZCircularTransitionAnimator.m */,
-				7E22371B1C2199ED008DB11A /* BIZCircularTransitionHandler.h */,
-				7E22371C1C2199ED008DB11A /* BIZCircularTransitionHandler.m */,
+				7EECAB6C1C3B4B54005AC48C /* BIZCircularTransitionAnimator.h */,
+				7EECAB6D1C3B4B54005AC48C /* BIZCircularTransitionAnimator.m */,
+				7EECAB6E1C3B4B54005AC48C /* BIZCircularTransitionHandler.h */,
+				7EECAB6F1C3B4B54005AC48C /* BIZCircularTransitionHandler.m */,
 			);
-			name = BIZCircularTransition;
-			path = ../BIZCircularTransition;
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,9 +173,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E22371E1C2199ED008DB11A /* BIZCircularTransitionHandler.m in Sources */,
+				7EECAB711C3B4B54005AC48C /* BIZCircularTransitionHandler.m in Sources */,
 				7E2237001C219941008DB11A /* AppDelegate.m in Sources */,
-				7E22371D1C2199ED008DB11A /* BIZCircularTransitionAnimator.m in Sources */,
+				7EECAB701C3B4B54005AC48C /* BIZCircularTransitionAnimator.m in Sources */,
 				7E2237171C2199D7008DB11A /* ViewController2.m in Sources */,
 				7E2236FD1C219941008DB11A /* main.m in Sources */,
 				7E2237161C2199D7008DB11A /* ViewController1.m in Sources */,
