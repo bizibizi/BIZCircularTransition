@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "BIZCircularTransition"
-  s.version      = '1.0.1'
+  s.version      = '1.0.2'
   s.summary      = "BIZCircularTransition is a round transition between UIViewControllers."
   s.homepage     = "https://github.com/bizibizi/BIZCircularTransition"
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
