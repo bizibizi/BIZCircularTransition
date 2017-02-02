@@ -14,4 +14,5 @@
 // * Use point or rect as a start position
 @property (nonatomic) CGPoint animationCenterPoint;
 @property (nonatomic) CGRect animationRect;
+@property (nonatomic) CGFloat animationDuration;
 @end

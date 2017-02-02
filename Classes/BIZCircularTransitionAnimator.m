@@ -21,13 +21,7 @@
 
 #pragma mark - Class Methods
 
-
-+ (CGFloat)animationDuration
-{
-    return 0.8;
-}
-
-- (NSTimeInterval)transitionDuration:(id <UIViewControllerContextTransitioning>)transitionContext {    return [[self class] animationDuration];
+- (NSTimeInterval)transitionDuration:(id <UIViewControllerContextTransitioning>)transitionContext {    return self.animationDuration;
 }
 
 - (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext
