@@ -13,6 +13,7 @@
 @interface BIZCircularTransitionHandler ()
 @property (nonatomic) CGPoint initialTransitionPoint;
 @property (nonatomic) CGRect initialTransitionRect;
+@property (nonatomic) CGFloat animationDuration;
 @end
 
 
@@ -22,16 +23,18 @@
 #pragma mark - Methods
 
 
-- (void)transitionWithDestinationViewController:(UIViewController *)destinationVC initialTransitionPoint:(CGPoint)point
+- (void)transitionWithDestinationViewController:(UIViewController *)destinationVC initialTransitionPoint:(CGPoint)point animationDuration:(CGFloat)animationDuration
 {
     destinationVC.transitioningDelegate = self;
     self.initialTransitionPoint = point;
+    self.animationDuration = animationDuration;
 }
 
-- (void)transitionWithDestinationViewController:(UIViewController *)destinationVC initialTransitionRect:(CGRect)rect
+- (void)transitionWithDestinationViewController:(UIViewController *)destinationVC initialTransitionRect:(CGRect)rect animationDuration:(CGFloat)animationDuration
 {
     destinationVC.transitioningDelegate = self;
     self.initialTransitionRect = rect;
+    self.animationDuration = animationDuration;
 }
 
 
@@ -42,6 +45,7 @@
 {
     BIZCircularTransitionAnimator *animator = [BIZCircularTransitionAnimator new];
     animator.isPresenting = YES;
+    animator.animationDuration = self.animationDuration;
     if (!CGPointEqualToPoint(self.initialTransitionPoint, CGPointZero)) {
         animator.animationCenterPoint = self.initialTransitionPoint;
     } else if (CGRectEqualToRect(self.initialTransitionRect, CGRectZero)) {
@@ -54,6 +58,7 @@
 {
     BIZCircularTransitionAnimator *animator = [BIZCircularTransitionAnimator new];
     animator.isPresenting = NO;
+    animator.animationDuration = self.animationDuration;
     if (!CGPointEqualToPoint(self.initialTransitionPoint, CGPointZero)) {
         animator.animationCenterPoint = self.initialTransitionPoint;
         self.initialTransitionPoint = CGPointZero;

@@ -44,7 +44,7 @@
     ViewController2 *destinationVC = [segue destinationViewController];
     CGPoint centerOfButton = [sender.superview convertPoint:sender.center toView:nil];
 
-    [self.circularTransitionHandler transitionWithDestinationViewController:destinationVC initialTransitionPoint:centerOfButton];
+    [self.circularTransitionHandler transitionWithDestinationViewController:destinationVC initialTransitionPoint:centerOfButton animationDuration:0.8];
 }
 
 
