@@ -22,9 +22,9 @@
 #pragma mark - Class Methods
 
 
-+ (CGFloat)animationDuration
++ (NSTimeInterval)animationDuration
 {
-    return 0.8;
+    return 0.7;
 }
 
 - (NSTimeInterval)transitionDuration:(id <UIViewControllerContextTransitioning>)transitionContext {    return [[self class] animationDuration];
@@ -57,7 +57,8 @@
     
     // * Creates two circular UIBezierPath instances; one is the size of the caller of presenting from VC, and the second has a radius large enough to cover the entire screen. The final animation will be between these two bezier paths.
     UIBezierPath *smallCircleMaskPath = [UIBezierPath bezierPathWithOvalInRect:[self rectForAnimator]];
-    UIBezierPath *bigCircleMaskPath = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(-destinationViewController.view.frame.size.height/2 - [self rectForAnimator].origin.x/2, -destinationViewController.view.frame.size.height/2 - [self rectForAnimator].origin.y/2, destinationViewController.view.frame.size.height*2, destinationViewController.view.frame.size.height*2)];
+    CGFloat height = [UIScreen mainScreen].bounds.size.height;
+    UIBezierPath *bigCircleMaskPath = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(-height/2 - [self rectForAnimator].origin.x/2, -height/2 - [self rectForAnimator].origin.y/2, height*2.2, height*2.2)];
     
     UIBezierPath *circleMaskPathInitial;
     UIBezierPath *circleMaskPathFinal;

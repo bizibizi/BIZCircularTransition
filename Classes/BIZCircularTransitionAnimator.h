@@ -10,6 +10,8 @@
 
 
 @interface BIZCircularTransitionAnimator : NSObject <UIViewControllerAnimatedTransitioning>
++ (NSTimeInterval)animationDuration;
+
 @property (nonatomic) BOOL isPresenting;
 // * Use point or rect as a start position
 @property (nonatomic) CGPoint animationCenterPoint;

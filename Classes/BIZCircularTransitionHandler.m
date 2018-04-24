@@ -42,10 +42,10 @@
 {
     BIZCircularTransitionAnimator *animator = [BIZCircularTransitionAnimator new];
     animator.isPresenting = YES;
-    if (!CGPointEqualToPoint(self.initialTransitionPoint, CGPointZero)) {
-        animator.animationCenterPoint = self.initialTransitionPoint;
-    } else if (CGRectEqualToRect(self.initialTransitionRect, CGRectZero)) {
+    if (CGPointEqualToPoint(self.initialTransitionPoint, CGPointZero)) {
         animator.animationRect = self.initialTransitionRect;
+    } else {
+        animator.animationCenterPoint = self.initialTransitionPoint;
     }
     return animator;
 }
@@ -54,15 +54,17 @@
 {
     BIZCircularTransitionAnimator *animator = [BIZCircularTransitionAnimator new];
     animator.isPresenting = NO;
-    if (!CGPointEqualToPoint(self.initialTransitionPoint, CGPointZero)) {
-        animator.animationCenterPoint = self.initialTransitionPoint;
-        self.initialTransitionPoint = CGPointZero;
-    } else if (CGRectEqualToRect(self.initialTransitionRect, CGRectZero)) {
+    if (CGPointEqualToPoint(self.initialTransitionPoint, CGPointZero)) {
         animator.animationRect = self.initialTransitionRect;
         self.initialTransitionRect = CGRectZero;
+    } else {
+        animator.animationCenterPoint = self.initialTransitionPoint;
+        self.initialTransitionPoint = CGPointZero;
     }
     return animator;
 }
+
+
 
 
 

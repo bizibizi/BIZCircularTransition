@@ -11,7 +11,8 @@
 
 // * Class holds implementation of UIViewControllerTransitioningDelegate, that needed to have custom transition
 // * To use custom transition need to call transitionWithDestinationViewController:initialTransitionPoint: before presenting ViewContoller (for example from prepareForSegue:sender: method)
-@interface BIZCircularTransitionHandler : NSObject <UIViewControllerTransitioningDelegate>
+@interface BIZCircularTransitionHandler : NSObject <UIViewControllerTransitioningDelegate, UINavigationControllerDelegate>
 - (void)transitionWithDestinationViewController:(UIViewController *)destinationVC initialTransitionPoint:(CGPoint)point;
 - (void)transitionWithDestinationViewController:(UIViewController *)destinationVC initialTransitionRect:(CGRect)rect;
+
 @end
